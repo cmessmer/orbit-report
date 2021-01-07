@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { OrbitListComponent } from './orbit-list/orbit-list.component';
+import { HighlightDirective } from './highlight.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    OrbitListComponent
+    OrbitListComponent,
+    HighlightDirective
   ],
   imports: [
     BrowserModule

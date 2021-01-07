@@ -16,6 +16,10 @@ export class Satellite {
 shouldShowWarning(): boolean {
     return this.type.toLowerCase() === "space debris";
     
-};
+}
+
+zebraStripe(arr): boolean {
+    return arr.indexOf(this) % 2 === 0
+}
 
 };
